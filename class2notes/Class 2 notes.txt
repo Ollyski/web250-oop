@@ -1,0 +1,53 @@
+Kent Beck--- resource/
+
+
+Total cost of owning a mess, productivity goes down when code is a mess, it costs you more at the end and overall trying to fix mistakes at the end. Bad code tempts the mess to grow "cracks in a glass expanding"
+
+Clean code is elegant and reads like well-written prose.
+
+Grady Booch
+
+Big Dave Thomas
+
+Michael Feathers
+
+Ron Jeffries
+
+Ward Cunningham
+
+ACCESS CONTROL/ VISIBILITY MODIFIERS:
+
+public, protected, and private
+
+
+
+INHERITANCE
+
+
+-----------------
+CarpentryTool
+-----------------
+-name: string
+-purpose: string
+------------------
++ describe(): string
+--------------------
+
+HandTool
+-toolType: string
++ describe(): string
+
+PowerTool
+-powerSource: string
++ describe(): string
+
+
+use camelCode for the Kevin Skoglund stuff
+pros: Kevin organizes his files well
+cons: He's a messy coder
+
+
+OVERLOADING
+IF you have a property you need to have private, you will need to write a function for it
+
+thins brings in Setters and Getters
